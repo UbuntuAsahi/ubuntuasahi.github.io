@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu Asahi</title>
+    <link>https://ubuntuasahi.org/</link>
+    <description>Recent content on Ubuntu Asahi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ubuntuasahi.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://ubuntuasahi.org/copyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuasahi.org/copyright/</guid>
+      <description>title: Ubuntu Asahi Code of Conduct Like many Open Source projects and the greater FLOSS community, Ubuntu Asahi is a collaborative open source community comprised of a diverse group of contributors and users from around the globe. We find the contributions, collaborations, and mentorships within our community to be the essential lifeblood of our project and appreciate the efforts of those who participate to nurture and grow those, and all other aspects of our community.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://ubuntuasahi.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuasahi.org/about/</guid>
+      <description>Ubuntu Asahi is porting Asahi Linux to Ubuntu with the goal of enabling stable and fully featured Ubuntu installs on Apple silicon hardware.
+To install Ubuntu Asahi follow steps on our ubuntu-asahi GitHub page.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to Ubuntu Asahi</title>
+      <link>https://ubuntuasahi.org/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuasahi.org/contributing/</guid>
+      <description>Thank you for taking the time to contribute! Bug reports and pull requests are very welcome.
+Ubuntu Asahi is in early development and our contribution process is loose. Following Asahi Linux&amp;rsquo; style is encouraged. Ubuntu Asahi discussion primarily takes place on the #ubuntu-asahi channel of OFTC.
+This project and everyone participating in it are governed by the Ubuntu Asahi Code of Conduct. Please report unacceptable behavior to conduct@ubuntuasahi.org.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Asahi Code of Conduct</title>
+      <link>https://ubuntuasahi.org/conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuasahi.org/conduct/</guid>
+      <description>Ubuntu Asahi follows the Asahi Linux&amp;rsquo;s Code of Conduct, as interpreted below, and follows the Ubuntu Code of Conduct v2.0. All Ubuntu Asahi members are held accountable to these code of conducts. As part of becoming an official Ubuntu Flavor, lead Ubuntu Asahi members must sign the Ubuntu Code of Conduct.
+Like many Open Source projects and the greater FLOSS community, Ubuntu Asahi is a collaborative open source community comprised of a diverse group of contributors and users from around the globe.</description>
+    </item>
+    
+  </channel>
+</rss>

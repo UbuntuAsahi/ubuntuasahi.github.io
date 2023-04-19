@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ubuntuasahi.org/copyright/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://ubuntuasahi.org/about/</loc>
+  </url><url>
+    <loc>https://ubuntuasahi.org/categories/</loc>
+  </url><url>
+    <loc>https://ubuntuasahi.org/contributing/</loc>
+  </url><url>
+    <loc>https://ubuntuasahi.org/tags/</loc>
+  </url><url>
+    <loc>https://ubuntuasahi.org/</loc>
+  </url><url>
+    <loc>https://ubuntuasahi.org/conduct/</loc>
+  </url>
+</urlset>

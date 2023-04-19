@@ -1,0 +1,71 @@
+:root { 
+  --ubuntu-orange:#E95420;
+  --asahi-blue:#96CAF3;
+  --heart:#E41B17;
+  --warm-grey-10:#F6F6F5;
+  --warm-grey-30:#E6E4E2;
+  --warm-grey:#AEA79F;
+  --cool-grey:#333333;
+  --text-grey:#111111;
+  --dark-grey:#090909;
+
+  --highlight:var(--ubuntu-orange);
+  --background:var(--warm-grey-10);
+  --background2:var(--warm-grey-30);
+  --color:var(--text-grey);
+  --hero-color:var(--background);
+}
+@media (prefers-color-scheme: dark) {
+  :root { 
+    --highlight:var(--asahi-blue);
+    --background:var(--text-grey); 
+    --background2:var(--dark-grey);
+    --color:var(--warm-grey-30);
+    --hero-color:var(--color);
+  }
+}
+
+html{ font:100%/1.5 Ubuntu; color:var(--color); background-color:var(--background2); }
+header, main { background-color:var(--background); }
+.inner { max-width:44em; margin:0 auto; padding: 0 1em; }
+a { text-decoration:none; font-weight:bold; color:var(--highlight); }
+a:hover { text-decoration:underline; }
+img{ display:block; height:auto; margin:auto; max-width:100%; }
+header, #banner, #hero { text-align:center; }
+header .inner { padding:1.5em 0 1em 0; }
+header img { height:6em; }
+header a { color:var(--color); font-weight:normal; }
+h1 { margin:0.25em 0; }
+nav ul, footer ul { list-style-type: none;padding:0; margin:0 auto; }
+nav li, footer li { display:inline-block; }
+nav li { margin:0 0.5em; }
+#banner p { font-size:0.75em; margin:0; padding:0.25em 0; }
+#banner a { color:var(--heart); }
+main { padding:1em 0; }
+.home main { padding-top:0; }
+h2 { margin-top:0; }
+#hero { background-color:black; color:var(--hero-color); padding:2em 0; }
+#hero h2 { margin:0; }
+#hero em { font-size:0.75em; }
+#hero img { margin-top:2em; }
+footer { height:100%; }
+footer .inner { padding-top:2em; }
+footer p { font-size:0.8em; line-height:1em; }
+footer p, footer a { color:var(--cool-grey); }
+footer li { margin-right:0.5em; }
+footer img { height:1em; }
+footer img:hover { opacity:50%; }
+
+code,time,kbd,samp,.mono{ color:var(--highlight); font-family:monospace; }
+a:focus,[tabindex]:focus{ outline:3px solid; }
+@supports selector(:focus-visible){ a:focus:not(:focus-visible),[tabindex]:focus:not(:focus-visible){ outline:none; } }
+:focus-visible{ outline:3px solid; }
+::selection { background:rgba(122, 122, 122, 0.2); } 
+p, code { line-height:calc(1ex / 0.32); }
+@supports (font-size-adjust:1;) { article { font-size-adjust:0.5; } }
+
+@media screen and (max-width:480px) {
+  h1 { display:none; }
+  header img { height:4em; padding-bottom:1em; }
+  nav li { display:block; }
+}
