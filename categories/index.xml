@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ubuntu Asahi</title>
-    <link>https://ubuntuasahi.org/categories/</link>
+    <link>https://www.ubuntuasahi.org/categories/</link>
     <description>Recent content in Categories on Ubuntu Asahi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ubuntuasahi.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.ubuntuasahi.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
