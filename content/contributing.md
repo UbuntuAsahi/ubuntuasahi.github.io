@@ -4,7 +4,7 @@ shorttitle: "Contributing to Ubuntu Asahi"
 draft: false
 ---
 
-Thank you for taking the time to contribute! [Bug reports and pull requests](https://github.com/tobhe/ubuntu-asahi) are very welcome.
+Thank you for taking the time to contribute! [Bug reports and pull requests](https://github.com/UbuntuAsahi/ubuntu-asahi) are very welcome.
 
 Ubuntu Asahi is in early development and our contribution process is loose. Following [Asahi Linux](https://github.com/AsahiLinux)' style is encouraged. Ubuntu Asahi discussion primarily takes place on the `#ubuntu-asahi` channel of [OFTC](https://www.oftc.net/).
 
