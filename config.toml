@@ -1,4 +1,4 @@
-baseURL = "https://www.ubuntuasahi.org/"
+baseURL = "https://ubuntuasahi.org/"
 languageCode = "en-us"
 title = "Ubuntu Asahi"
 relativeURLS = true
