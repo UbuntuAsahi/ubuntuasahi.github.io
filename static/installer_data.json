@@ -5,15 +5,15 @@
 			"default_os_name": "Ubuntu",
 			"boot_object": "m1n1.bin",
 			"next_object": "m1n1/boot.bin",
-			"package": "ubuntu-desktop-23.10-20231107.zip",
-			"supported_fw": ["12.3", "12.3.1", "12.4", "13.3", "13.5"],
+			"package": "ubuntu-desktop-23.10-20240209.zip",
+			"supported_fw": ["12.3", "12.4", "13.5"],
 			"partitions": [
 				{
 					"name": "EFI",
 					"type": "EFI",
 					"size": "500MB",
 					"format": "fat",
-					"volume_id": "0x51d3aace",
+					"volume_id": "0x77ED2137",
 					"copy_firmware": true,
 					"copy_installer_data": true,
 					"source": "esp"
