@@ -49,6 +49,7 @@ nav li { margin:0 0.5em; }
 #banner a { color:var(--heart); }
 main { padding:1em 0; }
 .home main { padding-top:0; }
+main.home p { text-align:center; font-size:2em; font-style:italic; }
 h2 { margin-top:0; }
 #hero { background-color:black; color:var(--hero-color); padding:2em 0; }
 #hero h2 { margin:0; }
