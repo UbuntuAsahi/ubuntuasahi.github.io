@@ -1,5 +1,39 @@
 {
 	"os_list": [
+                {
+                        "name": "Ubuntu Desktop 24.04",
+                        "default_os_name": "Ubuntu",
+                        "boot_object": "m1n1.bin",
+                        "next_object": "m1n1/boot.bin",
+                        "package": "ubuntu-desktop-24.04-20240604.zip",
+                        "icon": "logo.icns",
+                        "supported_fw": ["12.3", "12.4", "13.5"],
+                        "partitions": [
+                                {
+                                        "name": "EFI",
+                                        "type": "EFI",
+                                        "size": "500MB",
+                                        "format": "fat",
+                                        "volume_id": "0xD3196635",
+                                        "copy_firmware": true,
+                                        "copy_installer_data": true,
+                                        "source": "esp"
+                                },
+                                {
+                                        "name": "Boot",
+                                        "type": "Linux",
+                                        "size": "2147483648B",
+                                        "image": "boot.img"
+                                },
+                                {
+                                        "name": "Root",
+                                        "type": "Linux",
+                                        "size": "12GB",
+                                        "expand": true,
+                                        "image": "root.img"
+                                }
+                        ]
+                },
 		{
 			"name": "Ubuntu Desktop 23.10",
 			"default_os_name": "Ubuntu",
