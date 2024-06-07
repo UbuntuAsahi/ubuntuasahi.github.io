@@ -36,7 +36,7 @@ header, main { background-color:var(--background); }
 .inner { max-width:44em; margin:0 auto; padding: 0 1em; }
 a { text-decoration:none; font-weight:bold; color:var(--highlight); }
 a:hover { text-decoration:underline; }
-img{ display:block; height:auto; margin:auto; max-width:100%; }
+img, video { display:block; height:auto; margin:auto; max-width:100%; }
 header, #banner, #hero { text-align:center; }
 header .inner { padding:1.5em 0 1em 0; }
 header img { height:6em; }
@@ -51,10 +51,12 @@ main { padding:1em 0; }
 .home main { padding-top:0; }
 main.home p { text-align:center; font-size:2em; font-style:italic; }
 h2 { margin-top:0; }
-#hero { background-color:black; color:var(--hero-color); padding:2em 0; }
+#hero { background-color:black; color:var(--hero-color); padding:2em 0; height:30em;}
 #hero h2 { margin:0; }
 #hero em { font-size:0.75em; }
-#hero img { margin-top:2em; }
+#hero img, #hero video {position:absolute; margin: auto; left: 0; right: 0;}
+#hero img { z-index:0; margin-top:2em; }
+#hero video { z-index: 1; margin: auto; margin-top: 3.3em; width: 31em; }
 footer { height:100%; }
 footer .inner { padding-top:2em; }
 footer p { font-size:0.8em; }
@@ -79,11 +81,15 @@ p, code { line-height:calc(1ex / 0.32); }
 #screen { background-color: var(--term-screen); border-radius: 0em 0em 1em 1em; padding:1em; text-align:center;}
 #term code { font-size: 1.75em; #color: #000; color: var(--term); }
 
+@media screen and (max-width:660px) {
+  #hero { height:auto; }
+  #hero img { display:none; }
+  #hero video { position:relative; margin-top: 1em; }
+}
 @media screen and (max-width:480px) {
   h1 { display:none; }
   header img { height:4em; padding-bottom:1em; }
   nav li { display:block; }
-  #term code { font-size: 1em; }
+  main.home p, #term code { font-size: 1em; }
 }
-
 
