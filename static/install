@@ -12,7 +12,7 @@ if true; then
     export VERSION_FLAG=https://cdn.asahilinux.org/installer/latest
     export INSTALLER_BASE=https://cdn.asahilinux.org/installer
     export INSTALLER_DATA=https://ubuntuasahi.org/installer_data.json
-    export REPO_BASE=https://files.tobhe.de/ubuntu
+    export REPO_BASE=https://files2.tobhe.de/ubuntu
 
     #TMP="$(mktemp -d)"
     TMP=/tmp/asahi-install
