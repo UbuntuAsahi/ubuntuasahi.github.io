@@ -107,7 +107,7 @@
 			"boot_object": "m1n1.bin",
 			"next_object": "m1n1/boot.bin",
 			"package": "ubuntu-server-22.04-20221104.zip",
-			"supported_fw": ["12.3", "12.3.1", "12.4"],
+			"supported_fw": ["12.3", "12.3.1", "12.4", "13.5"],
 			"partitions": [
 				{
 					"name": "EFI",
