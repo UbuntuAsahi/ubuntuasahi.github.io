@@ -1,11 +1,11 @@
 {
 	"os_list": [
 		{
-			"name": "Ubuntu Desktop 24.04",
+			"name": "Ubuntu Desktop 24.04.1 LTS",
 			"default_os_name": "Ubuntu",
 			"boot_object": "m1n1.bin",
 			"next_object": "m1n1/boot.bin",
-			"package": "ubuntu-desktop-24.04-20240604.zip",
+			"package": "ubuntu-desktop-24.04-20241016.zip",
 			"icon": "logo.icns",
 			"supported_fw": ["12.3", "12.4", "13.5"],
 			"partitions": [
@@ -14,7 +14,7 @@
 					"type": "EFI",
 					"size": "500MB",
 					"format": "fat",
-					"volume_id": "0xD3196635",
+					"volume_id": "0xF34403C7",
 					"copy_firmware": true,
 					"copy_installer_data": true,
 					"source": "esp"
