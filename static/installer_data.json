@@ -73,7 +73,7 @@
 			"default_os_name": "Ubuntu",
 			"boot_object": "m1n1.bin",
 			"next_object": "m1n1/boot.bin",
-			"package": "ubuntu-server-24.04-20250208.zip",
+			"package": "ubuntu-server-24.04-20250329.zip",
 			"icon": "logo.icns",
 			"supported_fw": ["12.3", "12.4", "13.5"],
 			"partitions": [
@@ -82,7 +82,7 @@
 					"type": "EFI",
 					"size": "500MB",
 					"format": "fat",
-					"volume_id": "0x84ADDDA3",
+					"volume_id": "0xCDA93E8C",
 					"copy_firmware": true,
 					"copy_installer_data": true,
 					"source": "esp"
